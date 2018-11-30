@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bgButtonCng11"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/bgButtonCng12"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/bgButtonColor2" />
+
+        <Button
+            android:id="@+id/bgButtonCng13"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/bgButtonColor3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bgButtonCng21"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/bgButtonColor4"/>
+
+        <Button
+            android:id="@+id/bgButtonCng22"
+            android:padding="15dp"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/bgButtonColor5" />
+
+        <Button
+            android:id="@+id/bgButtonCng23"
+            android:layout_margin="10dp"
+            android:padding="15dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@color/bgButtonColor6"/>
+    </LinearLayout>
+
+</LinearLayout>

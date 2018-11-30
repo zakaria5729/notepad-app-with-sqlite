@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorBgPattern"
+    android:layout_height="match_parent"
+    tools:context=".activities.InputPatternActivity"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/more_pattern_forgot_icon"
+        android:layout_gravity="end"
+        android:onClick="forgotPatternPopUp"
+        android:layout_marginEnd="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_weight="1.5"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/app_icon"/>
+
+    <TextView
+        android:id="@+id/patternTextView"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:text="@string/input_pattern"
+        android:textColor="@android:color/white"
+        android:textAppearance="?android:textAppearanceMedium"
+        android:textAlignment="center"/>
+
+    <com.andrognito.patternlockview.PatternLockView
+        android:layout_weight="4"
+        android:layout_marginStart="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="35dp"
+        android:id="@+id/pattern_lock_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:dotCount="3"
+        app:dotNormalSize="12dp"
+        app:dotSelectedSize="24dp"
+        app:pathWidth="4dp"
+        app:aspectRatio="square"
+        app:dotAnimationDuration="100"
+        app:pathEndAnimationDuration="100"
+        app:normalStateColor="@color/white" />
+
+</LinearLayout>

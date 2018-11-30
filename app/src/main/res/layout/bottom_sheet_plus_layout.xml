@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+    android:background="@color/colorWhiteSheet"
+    app:behavior_hideable="true"
+    android:paddingBottom="50dp"
+    android:paddingTop="10dp"
+    android:paddingStart="30dp"
+    android:paddingEnd="35dp"
+    android:orientation="vertical"
+    android:id="@+id/bottom_sheet_plus_layout"
+    app:behavior_peekHeight="0dp">
+
+    <LinearLayout
+        android:id="@+id/takePhotoLL"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/take_photo_icon"/>
+
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_height="match_parent"
+            android:text="@string/take_photo"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chooseImageLL"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/choose_image_icon"/>
+
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_height="match_parent"
+            android:text="@string/choose_image"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+        android:id="@+id/bgChangeLL"
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/bg_change_icon"/>
+
+        <TextView
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:layout_height="match_parent"
+            android:text="@string/background_change"/>
+
+    </LinearLayout>-->
+
+</LinearLayout>

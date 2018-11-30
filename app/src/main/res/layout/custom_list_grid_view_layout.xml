@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViewNotesId"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="5dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp"
+    android:layout_marginStart="5dp"
+    android:layout_marginEnd="5dp"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/userImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            tools:src="@drawable/zakaria"
+            android:scaleType="fitCenter"
+            android:layout_marginBottom="5dp"
+            android:visibility="gone"
+            android:contentDescription="@string/imageview" />
+
+        <TextView
+            android:id="@+id/headLine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Zakaria"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:visibility="gone"
+            android:ellipsize="end"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/userImg" />
+
+        <TextView
+            android:id="@+id/details"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="hossain"
+            android:visibility="gone"
+            android:maxLines="7"
+            android:ellipsize="end"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/headLine" />
+
+        <TextView
+            android:id="@+id/dateShow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="25/10/2012"
+            android:textSize="12sp"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:layout_marginTop="5dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginBottom="5dp"
+            android:layout_below="@id/details" />
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

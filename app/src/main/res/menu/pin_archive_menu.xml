@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/resetMenu"
+        android:icon="@drawable/refresh_icon"
+        app:showAsAction="always"
+        android:title="@string/reset" />
+
+    <item
+        android:id="@+id/pinMenu"
+        android:icon="@drawable/ic_pin_top_iocn"
+        app:showAsAction="always"
+        android:visible="false"
+        android:title="@string/pin_to_top" />
+
+    <item
+        android:id="@+id/archiveMenu"
+        android:title="@string/archive"
+        app:showAsAction="ifRoom"
+        android:visible="false"
+        android:icon="@drawable/archive_icon"/>
+</menu>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activities.CreateOrShowNoteActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayoutEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/noteImage"
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    tools:src="@drawable/zakaria" />
+
+                <EditText
+                    android:id="@+id/editTitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:hint="@string/title"
+                    android:lines="3"
+                    android:inputType="textMultiLine|text"
+                    android:paddingStart="10dp"
+                    android:paddingTop="5dp"
+                    android:paddingEnd="11dp"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/editNote"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:gravity="start|top"
+                    android:hint="@string/note"
+                    android:minLines="30"
+                    android:inputType="textMultiLine|text"
+                    android:paddingStart="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingEnd="10dp"
+                    android:layout_marginBottom="40dp"
+                    android:textAppearance="?android:textAppearanceMedium" />
+            </LinearLayout>
+        </ScrollView>
+
+        <include layout="@layout/bottom_sheet_plus_layout" />
+
+        <include layout="@layout/bottom_sheet_more_layout" />
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="4dp">
+
+                <LinearLayout
+                    android:id="@+id/bottomLinearLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorBottomIcon"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:id="@+id/plusHoriz"
+                        android:layout_width="35dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:onClick="plusHorizontalView"
+                        android:padding="6dp"
+                        app:srcCompat="@drawable/ic_plus_circular_symbol" />
+
+                    <TextView
+                        android:id="@+id/editedDate"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="2dp"
+                        android:layout_marginEnd="2dp"
+                        android:layout_weight="1"
+                        android:gravity="center_vertical"
+                        android:textAlignment="center"
+                        android:textAppearance="?android:textAppearanceSmall"
+                        tools:text="Edited: Sep 26 2018, 09:10 PM" />
+
+                    <ImageButton
+                        android:id="@+id/moreHoriz"
+                        android:layout_width="35dp"
+                        android:layout_height="match_parent"
+                        android:background="@android:color/transparent"
+                        android:onClick="moreHorizontalView"
+                        android:padding="6dp"
+                        app:srcCompat="@drawable/ic_more_circular_symbol" />
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </android.support.v4.widget.NestedScrollView>
+
+    </android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#fdba03</color>
+    <color name="colorPrimaryDark">#fc9802</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorCreateStatusBar">#c2c2b5</color>
+    <color name="colorCreateActionBar">#fcfcfc</color>
+
+    <color name="colorBg">#e7e5e5</color>
+    <color name="colorDate">#e9e8e8</color>
+    <color name="colorBottomIcon">#f5f3f3</color>
+    <color name="colorWhiteSheet">#f7f6f6</color>
+    <color name="colorImgBtn">#797676</color>
+
+    <color name="bgButtonColor2">#e7c568</color>
+    <color name="bgButtonColor3">#f0a1ff</color>
+    <color name="bgButtonColor4">#afa7ff</color>
+    <color name="bgButtonColor5">#ffa7a8</color>
+    <color name="bgButtonColor6">#91f582</color>
+
+    <color name="colorBgPattern">#403535</color>
+    <color name="colorCorrectPattern">#208b1c</color>
+
+    <color name="colorAppThemePattern">#393131</color>
+
+</resources>

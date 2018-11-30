@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/listOrGridViewIcon"
+        android:icon="@drawable/list_view_ivon"
+        android:title="@string/list_view_icon"
+        android:orderInCategory="2"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/searchIcon"
+        android:icon="@drawable/search_icon"
+        android:title="@string/search_icon"
+        android:orderInCategory="1"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.support.v7.widget.SearchView"/>
+
+    <item
+        android:id="@+id/deleteAllNoteIcon"
+        android:title="@string/delete_all"
+        android:orderInCategory="3"
+        android:visible="false"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/trashIcon"
+        android:orderInCategory="4"
+        android:title="@string/trash"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settingsMenuIcon"
+        app:showAsAction="never"
+        android:orderInCategory="5"
+        android:title="@string/settings">
+
+        <menu>
+            <item
+                android:id="@+id/fontChangeIcon"
+                android:title="@string/change_font"
+                android:icon="@drawable/font_icon"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/changeBgIcon"
+                android:title="@string/background_change"
+                android:icon="@drawable/bg_change_icon"
+                app:showAsAction="never" />
+
+            <item
+                android:id="@+id/patternAndOthers"
+                android:title="@string/pattern_and_others"
+                android:icon="@drawable/pattern_lock_icon"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+
+
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="6"
+        android:title="@string/about"
+        app:showAsAction="never" />
+
+</menu>

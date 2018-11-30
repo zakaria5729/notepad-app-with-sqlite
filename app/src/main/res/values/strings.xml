@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Save</string>
+    <string name="search_icon">Search</string>
+    <string name="list_view_icon">List View</string>
+    <string name="grid_view_icon">Grid View</string>
+    <string name="imageview">imageview</string>
+    <string name="title">Title</string>
+    <string name="note">Note</string>
+    <string name="reset">Reset</string>
+    <string name="no_data_found">Notes you add appear here</string>
+    <string name="trash_empty">No notes in trash</string>
+    <string name="trash">Trash</string>
+
+    <string name="add_note_label">Add Note</string>
+    <string name="trash_label">Trash</string>
+    <string name="edited_date">Edited: </string>
+    <string name="settings">Settings</string>
+    <string name="archive">Archive</string>
+    <string name="make_a_copy">Make a copy</string>
+    <string name="send">Send</string>
+    <string name="delete">Delete</string>
+    <string name="take_photo">Take photo</string>
+    <string name="choose_image">Choose image</string>
+    <string name="background_change">Background change</string>
+    <string name="delete_note">Delete note</string>
+    <string name="share_note">Share Note</string>
+    <string name="pin_to_top">Pin to top</string>
+    <string name="delete_all">Delete all</string>
+    <string name="change_font">Font change</string>
+
+    <string name="smallFont">?android:textAppearanceSmall</string>
+    <string name="mediumFont">?android:textAppearanceMedium</string>
+    <string name="largeFont">?android:textAppearanceLarge</string>
+    <string name="others">Others</string>
+    <string name="create_a_pattern">Create a pattern</string>
+    <string name="create_new_pattern">Create a new pattern</string>
+    <string name="create_pattern">Create</string>
+    <string name="skip">Skip</string>
+    <string name="enter_email_or_text_key">Enter email or text key</string>
+    <string name="input_pattern">Draw your pattern</string>
+    <string name="correct_pattern">Pattern correct</string>
+    <string name="wrong_pattern">Wrong pattern</string>
+    <string name="pattern_and_others">Pattern and others</string>
+    <string name="sharing">Sharing</string>
+    <string name="enable_pattern">Enable pattern</string>
+    <string name="pattern">Pattern</string>
+    <string name="disable_note_sharing">Disable note sharing</string>
+    <string name="list_behavior">List behavior</string>
+    <string name="add_new_notes_to_bottom">Add new notes to bottom</string>
+    <string name="link_openable_from_note">Link openable from note</string>
+    <string name="link_opening">Link opening</string>
+    <string name="hiding">Hiding</string>
+    <string name="hide_pattern_drawing">Hide pattern drawing</string>
+    <string name="vibrating">Vibrating</string>
+    <string name="vibrating_while_pattern_drawing">Vibrating on pattern drawing</string>
+    <string name="empty_trash">Empty Trash</string>
+    <string name="restore">Restore</string>
+    <string name="about">About</string>
+    <string name="about_details">I am Md Zakaria Hossain. I am studying at computer science and engineering in DIU. I still a full time learner with student and I love to learn new technology and also help to other. \n\n\t <b>zakariahossain143@gmail.com</b>\n</string>
+
+    <string-array name="font_size">
+        <item>Small</item>
+        <item>Medium</item>
+        <item>Large</item>
+    </string-array>
+
+</resources>
